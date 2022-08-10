@@ -14,12 +14,12 @@ While previous approaches were limited to continuously differentiable cost funct
 ## Get Started
 
 - **Dependencies** \
--- install PyTorch (e.g. version 1.10.1+cu111) and Torchvision (e.g. version 0.11.2+cu111)
--- install requirements by: `pip install -r requirements`
+  - install PyTorch (e.g. version 1.10.1+cu111) and Torchvision (e.g. version 0.11.2+cu111) \
+  - install requirements by: `pip install -r requirements`
 - **Data** \
--- please configure the desired paths for the datasets in *path.json*
--- run `python gen_data.py` to generate barcodes and load the images used for denoising
+  - please configure the desired paths for the datasets in *path.json* \
+  - run `python gen_data.py` to generate barcodes and load the images used for denoising
 - **Training and Evaluation** \
--- to train the networks, run `train_deblurring.sh` or `train_deblurring.sh` .
--- evaluate the trained networks in *evaluate_deblurring.ipynb* and *evaluate_denoising.ipynb*
--- for some tests on pretrained networks, load [those networks](https://drive.google.com/drive/folders/1WQ_8HSFYS0TAWtHEjCmnh1Tg5avQZcIv?usp=sharing) into *./examples/*
+  - to train the networks, run `train_deblurring.sh` or `train_deblurring.sh` . \
+  - evaluate the trained networks in *evaluate_deblurring.ipynb* and *evaluate_denoising.ipynb* \
+  - for some tests on pretrained networks, load [those networks](https://drive.google.com/drive/folders/1WQ_8HSFYS0TAWtHEjCmnh1Tg5avQZcIv?usp=sharing) into *./examples/*
