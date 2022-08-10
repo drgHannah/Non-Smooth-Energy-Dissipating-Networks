@@ -1,0 +1,1 @@
+python train.py --alpha 1 --mu 0.1 --iters 10 --twonorm 0 --dataset denoise2d --zeta1 0.05 --zeta2 30.0 --num_layers 20 --num_features 64 --kaiming 1 --patch_size 52 --lr 1e-5  --max_iters 30000 --path ./results/denoising

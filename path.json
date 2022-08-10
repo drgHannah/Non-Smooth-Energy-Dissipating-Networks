@@ -1,0 +1,5 @@
+{
+"base_path": "datasets",
+"image_path": "images",
+"barcode_path": "barcode"
+}
