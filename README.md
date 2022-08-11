@@ -1,7 +1,8 @@
 
 ## Non-Smooth Energy Dissipating Networks
 
-This repository is the official implementation of [Non-Smooth Energy Dissipating Networks]( ).
+This repository is the official implementation of [Non-Smooth Energy Dissipating Networks]( ), to appear in *2022 IEEE ICIP,
+                   16-19 October, 2022, Bordeaux, France*.
 
 ![Here comes the image](./denoising.png?raw=true "")
 
