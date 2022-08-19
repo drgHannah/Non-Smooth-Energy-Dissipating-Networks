@@ -6,9 +6,9 @@ This repository is the official implementation of [Non-Smooth Energy Dissipating
 
 ![Here comes the image](./denoising.png?raw=true "")
 
-### Abstract
+[//]: # (### Abstract
 Over the past decade, deep neural networks have been shown to perform extremely well on a variety of image reconstruction tasks. Such networks do, however, fail to provide guarantees about these predictions, making them difficult to use in safety-critical applications. Recent works addressed this problem by combining model- and learning-based approaches, e.g., by forcing networks to iteratively minimize a model-based cost function via the prediction of suitable descent directions.
-While previous approaches were limited to continuously differentiable cost functions, this paper discusses a way to remove the restriction of differentiability. We propose to use the Moreau-Yosida regularization of such costs to make the framework of energy dissipating networks applicable.  We demonstrate our framework on two exemplary applications, i.e., safeguarding energy dissipating denoising networks to the expected distribution of the noise as well as enforcing binary constraints on bar-code deblurring networks to improve their respective performances.  
+While previous approaches were limited to continuously differentiable cost functions, this paper discusses a way to remove the restriction of differentiability. We propose to use the Moreau-Yosida regularization of such costs to make the framework of energy dissipating networks applicable.  We demonstrate our framework on two exemplary applications, i.e., safeguarding energy dissipating denoising networks to the expected distribution of the noise as well as enforcing binary constraints on bar-code deblurring networks to improve their respective performances.  )
 
 
 
